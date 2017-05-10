@@ -1,0 +1,99 @@
+#newIdeas {
+    background-color:Cornsilk;
+    padding:10px;
+    border-radius:5px;
+    margin-top:10px;
+    text-align:center;
+}
+
+#newIdeas h3 {
+    margin-top:0;
+    text-align:center;
+    font-weight:bold;
+    font-size:1.6rem;
+}
+#newIdeas ul {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+
+
+/*----------------------------------------------------
+Ideas
+-----------------------------------------------------*/
+#ideas {
+    margin-bottom:20px;
+}
+
+.idea {
+    padding:10px;
+    width:100%;
+    margin-bottom:5px;
+    text-align:left;
+}
+
+.idea h3 {
+    text-align:center;
+    font-size:1.3em;
+    margin:4px 0 4px 0;
+    font-style:italic;
+}
+
+.idea a {
+    align-items: center;
+    text-align: center;
+}
+
+.idea i {
+    align-items: center;
+    text-align: center;
+}
+
+.idea h2 {
+    text-align:center;
+    font-size:1.3em;
+    margin:4px 0 4px 0;
+    font-style:italic;
+}
+
+a.ideaAction:link {
+    padding:5px;
+    font-size:2.0rem;
+}
+
+a.ideaAction:hover {
+    padding:5px;
+    color:#18bc9c; /* flatly teel */
+}
+
+
+
+/*----------------------------------------------------
+Jobs checkboxes
+-----------------------------------------------------*/
+#jobs {
+    text-align:left;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+#jobs label {
+    font-weight:normal;
+}
+
+/*----------------------------------------------------
+Stage radio buttons
+-----------------------------------------------------*/
+
+#stage {
+    text-align:left;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+#stage label {
+    font-weight:normal;
+}
