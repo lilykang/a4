@@ -25,6 +25,8 @@
             </ul>
         </section>
     @else
+        Ideas Hub is the center of startup ideas from you community.
+        You can share your ideas and view those posted by others. <br>
         You don't have any ideas yet; would you like to <a href='/ideas/new'>share one with your community</a>?
     @endif
 
