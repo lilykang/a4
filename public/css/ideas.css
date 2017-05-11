@@ -1,11 +1,5 @@
-* {
-    text-align: center;
-    margin-top:10px;
-}
-
 #newIdeas {
     background-color:Cornsilk;
-    padding:10px;
     border-radius:5px;
     margin-top:10px;
     text-align:center;
@@ -17,6 +11,14 @@
     font-weight:bold;
     font-size:1.6rem;
 }
+
+#newIdeas h2 {
+    margin-top:0;
+    text-align:center;
+    font-weight:bold;
+    font-size:1.6rem;
+}
+
 
 #newIdeas ul {
     margin:0;
@@ -32,34 +34,32 @@ Ideas
     margin-bottom:20px;
 }
 
-.idea {
+#ideas {
     padding:10px;
     width:100%;
     margin-bottom:5px;
     text-align:left;
 }
 
-.idea h3 {
+#ideas h3 {
     text-align:center;
     font-size:1.3em;
     margin:4px 0 4px 0;
     font-style:italic;
 }
 
-.idea a {
+#ideas a {
+    align-items: center;
+    text-align: center;
+}
+#ideas i {
     align-items: center;
     text-align: center;
 }
 
-.idea i {
-    align-items: center;
-    text-align: center;
-}
-
-.idea h2 {
+#ideas h2 {
     text-align:center;
     font-size:1.3em;
-    margin:4px 0 4px 0;
     font-style:italic;
 }
 

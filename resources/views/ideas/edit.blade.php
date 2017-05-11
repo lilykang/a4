@@ -26,17 +26,19 @@
         <label for='description'>* Describe Your Idea</label>
         <input type='text' name='description' id='description' value='{{ old('description', $idea->description) }}'>
 
-        <label for='stage'>Which stage is your idea in?</label>
+
+        <label>Which stage is your idea in?</label>
         <ul id='stage'>
             <label for='stage'>
-                {{ Form::radio('stage', 'Ideating', old('stage', $idea->stage)) }} Ideating <br>
-                {{ Form::radio('stage', 'Concepting', old('stage', $idea->stage)) }} Concepting <br>
-                {{ Form::radio('stage', 'Committing', old('stage', $idea->stage)) }} Committing <br>
-                {{ Form::radio('stage', 'Validating', old('stage', $idea->stage)) }} Validating <br>
-                {{ Form::radio('stage', 'Scaling', old('stage', $idea->stage)) }} Scaling <br>
-                {{ Form::radio('stage', 'Establishing', old('stage', $idea->stage)) }} Establishing <br>
+                {{ Form::radio('stage', 'Ideating', $stage == 'Ideating' ? 'True' : null) }} Ideating <br>
+                {{ Form::radio('stage', 'Concepting', $stage == 'Concepting' ? 'True' : null) }} Concepting <br>
+                {{ Form::radio('stage', 'Committing', $stage == 'Committing' ? 'True' : null) }} Committing <br>
+                {{ Form::radio('stage', 'Validating', $stage == 'Validating' ? 'True' : null) }} Validating <br>
+                {{ Form::radio('stage', 'Scaling', $stage == 'Scaling' ? 'True' : null) }} Scaling <br>
+                {{ Form::radio('stage', 'Establishing', $stage == 'Establishing' ? 'True' : null) }} Establishing <br>
             </label>
         </ul>
+
 
         <label for='jobs'>* Jobs</label>
         <ul id='jobs'>

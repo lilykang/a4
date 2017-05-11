@@ -126,6 +126,7 @@ class IdeaController extends Controller
             return redirect('/ideas');
         }
 
+        $stage = $idea->stage;
         $jobsForCheckboxes = Job::getjobsForCheckboxes();
 
         # Create an array of just the job titles for jobs associated with this idea
@@ -138,6 +139,7 @@ class IdeaController extends Controller
         return view('ideas.edit')->with([
             'id' => $id,
             'idea' => $idea,
+            'stage' => $stage,
             'jobsForCheckboxes' => $jobsForCheckboxes,
             'jobsForThisidea' => $jobsForThisidea,
         ]);
