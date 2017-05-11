@@ -39,9 +39,9 @@
         <h3>Ideas from Your Community</h3>
 
         @foreach($newIdeas as $idea)
-            
+
             <a href='/ideas/{{ $idea->id }}'>{{ $idea->idea_name }}</a>
-            added {{ $idea->created_at->diffForHumans()}}
+            added {{ $idea->created_at->diffForHumans()}} <br>
 
         @endforeach
 
