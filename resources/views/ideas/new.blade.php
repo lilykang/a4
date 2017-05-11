@@ -18,11 +18,11 @@
 
         <small>* Required fields</small>
         <label for='idea_name'>* Give Your Idea a Name:</label>
-        <input type='text' name='idea_name' required id='idea_name' value='{{ $idea_name or '' }}'>
+        <input type='text' name='idea_name' required id='idea_name' value='{{ old('idea_name') }}'>
 
         <label for='description'>* Describe Your Idea:</label>
         <input type='text' name='description' maxlength="3000" required id='description'
-            value='{{ $description or '' }}'>
+            value='{{ old('description') }}'>
 
         <label for='stage'>Which stage is your idea in?</label>
         <ul id='stage'>
