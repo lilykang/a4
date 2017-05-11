@@ -26,7 +26,7 @@
             <a href='/'>
                 <img
                 id='logo'
-                src='https://www.ethos3.com/wp-content/uploads/2015/12/slideshare-presentation-ideas.jpg'
+                src='https://s3.amazonaws.com/web-dwa/IDeas+hub.jpg'
                 alt='Ideas Hub Logo'></a>
 
                 <nav>

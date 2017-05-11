@@ -52,6 +52,7 @@ class IdeaController extends Controller
         $user_id = $idea->user_id;
         $creator = User::find($user_id)->name;
 
+        $sessionUserID = null;
         $sessionUser = $request->user();
         if($sessionUser) {
             $sessionUserID = $sessionUser->id;
