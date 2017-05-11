@@ -16,13 +16,13 @@
 
         <p>Description: {{ $description}}</p>
 
-        <p>Jobs available:
+        <p>Jobs available:</p>
             <ul>
             @foreach ($jobsForThisidea as $job_title)
                 <li>{{ $job_title }}<br></li>
             @endforeach
             </ul>
-        </p>
+
 
         <p>Stage of idea: {{ $stage }}</p>
 
