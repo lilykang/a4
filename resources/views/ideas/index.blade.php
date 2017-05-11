@@ -39,10 +39,10 @@
         <h3>Ideas from Your Community</h3>
 
         @foreach($newIdeas as $idea)
-            <ul class='truncate'>
-                <a href='/ideas/{{ $idea->id }}'>{{ $idea->idea_name }}</a>
-                added {{ $idea->created_at->diffForHumans()}}
-            </ul>
+            
+            <a href='/ideas/{{ $idea->id }}'>{{ $idea->idea_name }}</a>
+            added {{ $idea->created_at->diffForHumans()}}
+
         @endforeach
 
     </section>
